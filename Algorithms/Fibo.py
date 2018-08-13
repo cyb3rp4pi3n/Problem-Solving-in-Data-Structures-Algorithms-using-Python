@@ -8,9 +8,9 @@ def fibonacci(n):
     first = 0
     second = 1
     if (n == 0):
-        return first;
+        return first
     elif (n == 1):
-        return second;
+        return second
     i = 2
     while(i <= n):
         temp = first + second
